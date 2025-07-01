@@ -1,0 +1,15 @@
+mujoco
+loguru
+pyyaml
+scipy
+torch
+onnxruntime
+pynput
+ipdb
+termcolor
+sshkeyboard
+pygame
+zmq
+
+pyvicon-datastream
+git+https://github.com/unitree-ai/unitree_sdk2py.git
