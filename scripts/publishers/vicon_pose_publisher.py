@@ -84,7 +84,7 @@ class Vicon:
 
             # Position and orientation
             position = np.array([x, y, z]) / 1000. # Convert to meters
-            rotation = R.from_euler('xyz', [roll, pitch, yaw], degrees=False)
+            rotation = R.from_euler('XYZ', [roll, pitch, yaw], degrees=False)
             quaternion = rotation.as_quat()  # [x, y, z, w]
 
             return current_time, position, quaternion
